@@ -1,0 +1,28 @@
+.results-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  align-self: center;
+  margin-top: 100px;
+}
+.result-images {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+.rules-container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  align-self: flex-end;
+  margin-bottom: 50px;
+  position: absolute;
+  bottom: 0;
+}
+@media screen and (min-width: 768px) {
+  .result-images {
+    width: 175px;
+    height: 175px;
+  }
+}

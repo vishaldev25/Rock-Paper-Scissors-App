@@ -1,0 +1,12 @@
+.our-choice-container {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+  align-self: center;
+  margin-top: 100px;
+}
+.button-images {
+  background-color: transparent;
+  border: 0;
+}
